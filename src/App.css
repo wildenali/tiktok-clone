@@ -8,3 +8,13 @@ html {
   display: grid;
   place-items: center;
 }
+
+.app__videos {
+  position: relative;
+  height: 800px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 500px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
