@@ -6,16 +6,13 @@ function App() {
   return (
     // BEM naming convention
     <div className="app">
-      <h1>Cek</h1>
-
       {/* app container */}
       {/* videos */}
-      <Video />
-      {/* <Videos /> */}
-      {/* <Videos /> */}
-      {/* <Videos /> */}
-      {/* <Videos /> */}
-      {/* <Videos /> */}
+      <div className="app__videos">
+        {/* <Videos /> */}
+        <Video />
+        <Video />
+      </div>
     </div>
   );
 }
