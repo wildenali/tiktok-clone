@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Video.css";
 
 function Video() {
+  const videoRef = useRef(null);
+
   return (
     <div className="video">
-      <img src="https://wallpaperaccess.com/full/140057.jpg"></img>
-
-      {/* <video className="video__player" loop src=""></video> */}
+      <video
+        className="video__player"
+        loop
+        ref={videoRef}
+        src="/Videos/contoh2.mp4"
+        type="video/mp4"
+        controls
+      ></video>
 
       {/* VideoFooter */}
 
