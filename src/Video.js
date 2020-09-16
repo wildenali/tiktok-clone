@@ -37,7 +37,7 @@ function Video() {
       <VideoFooter />
 
       {/* VideoSIdebar */}
-      <VideoSidebar />
+      <VideoSidebar likes={3200} shares={140} messages={350} />
     </div>
   );
 }
