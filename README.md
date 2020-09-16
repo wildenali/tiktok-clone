@@ -24,3 +24,6 @@ Open [http://localhost:3000](http://localhost:3000) to
 
 1. Create React project `$ npx create-react-app .`
 2. Create Firebase project with named project is `react-clone-wilden`
+3. Install MATERIAL-UI [https://material-ui.com/getting-started/installation/](https://material-ui.com/getting-started/installation/)
+
+- `$ npm install @material-ui/core`
