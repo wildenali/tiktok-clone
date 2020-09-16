@@ -1,5 +1,8 @@
 # TIKTOK App Clone
 
+Tutorial reference from<br/>
+[https://www.youtube.com/watch?v=g8yGxDMyGiE&t=2767s](https://www.youtube.com/watch?v=g8yGxDMyGiE&t=2767s)
+
 #### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to
