@@ -35,3 +35,5 @@ Open [http://localhost:3000](http://localhost:3000) to
 5. Find and click `search the full list of these icons` will going to [https://material-ui.com/components/material-icons/](https://material-ui.com/components/material-icons/)
 
 6. Fill `Search Icons...` bar with `music note` and Click `MusicNote` and then copy `import MusicNoteIcon from '@material-ui/icons/MusicNote';`
+
+7. Install react-ticker `$ npm i react-ticker`
