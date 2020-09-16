@@ -3,7 +3,7 @@ import "./Video.css";
 import VideoFooter from "./VideoFooter";
 import VideoSidebar from "./VideoSidebar";
 
-function Video() {
+function Video({ url, channel, description, song, likes, messages, shares }) {
   const [playing, setPlaying] = useState(false);
   const videoRef = useRef(null);
 
@@ -29,19 +29,15 @@ function Video() {
         className="video__player"
         loop
         ref={videoRef}
-        src="/Videos/contoh2.mp4"
-        // type="video/mp4"
+        // src="/Videos/contoh2.mp4"
+        src={url}
       ></video>
 
       {/* VideoFooter */}
-      <VideoFooter
-        channel="wildenali"
-        description="Wow Epic MERN TOKTOK Clone App"
-        song="Hey whatsup cool 3 2 1 clone the door"
-      />
+      <VideoFooter channel={channel} description={description} song={song} />
 
       {/* VideoSIdebar */}
-      <VideoSidebar likes={3200} shares={140} messages={350} />
+      <VideoSidebar likes={likes} shares={shares} messages={messages} />
     </div>
   );
 }
