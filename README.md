@@ -27,3 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) to
 3. Install MATERIAL-UI [https://material-ui.com/getting-started/installation/](https://material-ui.com/getting-started/installation/)
 
 - `$ npm install @material-ui/core`
+
+4. Install Material-UI ICONS [https://material-ui.com/components/icons/#icons](https://material-ui.com/components/icons/#icons)
+
+- `$ npm install @material-ui/icons`
