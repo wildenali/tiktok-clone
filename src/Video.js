@@ -34,7 +34,11 @@ function Video() {
       ></video>
 
       {/* VideoFooter */}
-      <VideoFooter />
+      <VideoFooter
+        channel="wildenali"
+        description="Wow Epic MERN TOKTOK Clone App"
+        song="Hey whatsup cool 3 2 1 clone the door"
+      />
 
       {/* VideoSIdebar */}
       <VideoSidebar likes={3200} shares={140} messages={350} />
