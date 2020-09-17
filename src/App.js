@@ -1,8 +1,24 @@
-import React from "react";
+import axios from "./axios";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import Video from "./Video";
 
 function App() {
+  const [videos, setVideos] = useState([]);
+
+  useEffect(() => {
+    async function fetchPosts() {
+      const response = await axios.get("/v2/posts");
+      setVideos(response.data);
+
+      return response;
+    }
+
+    fetchPosts();
+  }, []);
+
+  console.log(videos);
+
   return (
     // BEM naming convention
     <div className="app">
