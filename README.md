@@ -40,3 +40,4 @@ Open [http://localhost:3000](http://localhost:3000) to
 6. Fill `Search Icons...` bar with `music note` and Click `MusicNote` and then copy `import MusicNoteIcon from '@material-ui/icons/MusicNote';`
 
 7. Install react-ticker `$ npm i react-ticker`
+8. Install Axios `$ npm i axios`
