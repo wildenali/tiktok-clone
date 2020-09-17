@@ -26,7 +26,21 @@ function App() {
       {/* videos */}
       <div className="app__videos">
         {/* <Videos /> */}
-        <Video
+        {videos.map(
+          ({ url, channel, description, song, likes, messages, shares }) => (
+            <Video
+              url={url}
+              channel={channel}
+              song={song}
+              likes={likes}
+              messages={messages}
+              description={description}
+              shares={shares}
+            />
+          )
+        )}
+
+        {/* <Video
           url="/Videos/contoh2.mp4"
           channel="wildenali"
           description="Wow Epic MERN TOKTOK Clone App"
@@ -43,7 +57,7 @@ function App() {
           likes={2250}
           messages={420}
           shares={220}
-        />
+        /> */}
       </div>
     </div>
   );
